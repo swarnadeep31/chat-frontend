@@ -1,0 +1,63 @@
+# ======================
+# Dependencies
+# ======================
+node_modules/
+.pnp/
+.pnp.js
+
+# ======================
+# Bun
+# ======================
+bun.lockb
+
+# ======================
+# Next.js
+# ======================
+.next/
+out/
+.next/cache/
+
+# ======================
+# Build outputs
+# ======================
+dist/
+build/
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# ======================
+# OS / Editor
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# Temporary files
+# ======================
+*.log
+*.tmp
+
+# ======================
+# Uploads (if you ever add disk uploads)
+# ======================
+uploads/
+
+# ======================
+# Coverage / testing
+# ======================
+coverage/
